@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <title>Jowhara Hotel</title>
+</head>
+
+<body>
+
+
+     <div class="navbar">
+          <div class="logo">
+               <img src="jowharaweblogo1.png" alt="Logo">
+          </div>
+
+          <i id="menuIcon" class="fa-solid fa-bars"></i>
+          <i id="closeIcon" class="fa-solid  fa-xmark "></i>
+
+          <div class="header">
+               <ul id="ul">
+                    <li>  <a href="index.html">Home </a></li>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="Rooms.html"><li>Rooms</li></a>
+               </ul>
+     </div>
+     <button class="sign-in-btn" onclick="openSignInModal()">Sign In</button>
+     </div>
+
+     <div class="signin-modal" id="signinModal">
+          <!-- Your Sign In Form Goes Here -->
+          <!-- Include form fields, labels, etc. -->
+          <button class="close-btn" onclick="closeSignInModal()">Close</button>
+     </div>
+
+     <!-- section  -->
+     <div class="slideshow-container">
+          <!-- Slides with background images -->
+          <div class="mySlides"
+               style="background-image: url('post-3.jpg');">
+               <h1>Welcome Jowhara Hotel</h1>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Quas, voluptate! Exercitationem, quam
+                    molestias <br> non aut error temporibus et. Excepturi, debitis.</p>
+
+               <button class="learnMore">Learn More</button>
+
+          </div>
+          <div class="mySlides" style="background-image: url('sawir.jpg');">
+               <h1>Welcome Jowhara Hotel</h1>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Quas, voluptate! Exercitationem, quam
+                    molestias <br> non aut error temporibus et. Excepturi, debitis.</p>
+
+               <button class="learnMore">Learn More</button>
+          </div>
+          <div class="mySlides" style="background-image: url('post-1.jpg');">
+               <h1>Welcome Jowhara Hotel</h1>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Quas, voluptate! Exercitationem, quam
+                    molestias <br> non aut error temporibus et. Excepturi, debitis.</p>
+
+               <button class="Learn">Learn More</button>
+          </div>
+
+          <!-- Navigation buttons -->
+          <!-- <a class="prev" onclick="changeSlide(-1)">&#10094; Prev</a>
+          <a class="next" onclick="changeSlide(1)">Next &#10095;</a> -->
+     </div>
+
+
+     <div class="welcome">
+          <h1>Welcome To Jowhara Hotel</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, recusandae esse pariatur quis in
+               reprehenderit temporibus vel, nobis nostrum qui quisquam delectus at asperiores itaque mollitia excepturi
+               cum exercitationem. Sit?</p>
+          <Button class="btn-welcome">Read more</Button>
+
+     </div>
+
+     <div class="activiteis">
+          <div class="left-ac">
+               <img src="post-1.jpg" alt="">
+          </div>
+          <div class="right-ac">
+               <h1>What activities we offer</h1>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut aspernatur, est dolorem sint modi iure
+                    excepturi ipsum magni facilis molestiae consectetur sapiente quasi, fugit temporibus, aperiam
+                    nesciunt nulla qui deserunt.</p>
+               <div class="ac-one">
+                    <ul>
+                         <li><i class="fa-solid fa-wifi"></i><a href="#">Free Wifi</a></li>
+                         <li><i class="fa-solid fa-utensils"></i><a href="#">Dining</a></li>
+                         <li><i class="fa-solid fa-burger"></i><a href="#">Fast Food</a></li>
+                    </ul>
+               </div>
+               <div class="two-ac">
+                    <ul>
+                         <li><i class="fa-solid fa-person-swimming"></i><a href="#">Swimming </a></li>
+                         <li><i class="fa-solid fa-utensils"></i><a href="#">Lunch</a></li>
+                         <li><i class="fa-solid fa-burger"></i><a href="#">Fast Food</a></li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+
+     <div class="rooms">
+          <h1>Explore Our Rooms</h1>
+          <div class="box">
+               <div class="box1">
+                    <img src="Grand-Hyatt-Seattle-P090-Elliot-Bay.16x9 (2).webp" alt="">
+                    <h3>Classic Room</h3>
+                    <div class="overlay">
+
+                         <p>Price: 300$/per night</p>
+                         <p> dist:/ karaan</p>
+                         <p>VIP: /Rooms</p>
+
+                    </div>
+               </div>
+               <div class="box1">
+                    <img src="Grand-Hyatt-Seattle-P090-Elliot-Bay.16x9 (2).webp" alt="">
+                    <h3>Classic Room</h3>
+                    <div class="overlay">
+                         <p>Price: 300$/per night</p>
+
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+
+                    </div>
+               </div>
+               <div class="box1">
+                    <img src="SEAGH-P071-Onyx-Suite.16x9.webp" alt="">
+                    <h3>Classic Room</h3>
+                    <div class="overlay">
+                         <p>Price: 300$/per night</p>
+
+                         <p>Price: </p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+
+                    </div>
+               </div>
+               <div class="box1">
+                    <img src="Hyatt-Regency-Aruba-Resort-Spa-and-Casino-P429-Beach-Palapa.16x9.webp" alt="">
+                    <h3>Classic Room</h3>
+                    <div class="overlay">
+                         <p>Price: 300$/per night</p>
+
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+     <div class="rooms">
+          <h1 class="lunch">Lunch Rooms</h1>
+          <div class="box">
+               <div class="box1">
+                    <img src="SEAGH-P071-Onyx-Suite.16x9.webp" alt="">
+                    <h3> Room 2</h3>
+                    <div class="overlay">
+
+                         <p>Price: 500$/per night</p>
+                         <p> dist:/ karaan</p>
+                         <p>VIP: /Rooms</p>
+
+                    </div>
+               </div>
+               <div class="box1">
+                    <img src="Grand-Hyatt-Seattle-P090-Elliot-Bay.16x9 (2).webp" alt="">
+                    <h3>Classic Room</h3>
+                    <div class="overlay">
+                         <p>Price: 500$/per night</p>
+
+                         <p>VIP /Rooms</p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+
+                    </div>
+               </div>
+               <div class="box1">
+                    <img width="200px " height="150px"
+                         src="Hyatt-Regency-Aruba-Resort-Spa-and-Casino-P429-Beach-Palapa.16x9.webp" alt="">
+                    <h3>room3</h3>
+                    <div class="overlay">
+                         <p>Price: 500$/per night</p>
+
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+
+                    </div>
+               </div>
+               <div class="box1">
+                    <img src="Hyatt-Regency-Aruba-Resort-Spa-and-Casino-P429-Beach-Palapa.16x9.webp" alt="">
+                    <h3>Classic Room</h3>
+                    <div class="overlay">
+                         <p>Price: 500$/per night</p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+                         <p>Price: 300$/per night</p>
+
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+
+
+
+     <div class="contact-container">
+
+          <div class="contactimage">
+               <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+                    alt="">
+          </div>
+          <div class="send-message">
+               <h1>Contact Us</h1>
+
+               <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input class="solo-input inp" type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input class="solo-input inp" type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea class="solo-input " id="message" name="message" rows="4" cols="50"
+                         required></textarea><br><br>
+
+                    <input class="submit-inp" onclick="sendMail()" type="submit" value="Submit">
+               </form>
+
+
+
+          </div>
+
+     </div>
+
+     <script src="contact.js"></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+          (function () {
+               emailjs.init("ibSQxMT_Us2ZjgXlv");
+          })();
+     </script>
+
+
+     <footer>
+          <div class="container-footer">
+               <div class="footer-about">
+                    <img src="./jowharaweblogo1.png" alt="">
+                    <h4>Productboard is the product management system that helps </h4>
+                    <div class="footer-socail">
+                         <i class="uil uil-facebook-f"></i>
+                         <i class="uil uil-twitter"></i>
+                         <i class="uil uil-instagram-alt"></i>
+                    </div>
+               </div>
+
+               <div class="contact-us">
+                    <div class="title">
+                         <h1> Contact Us</h1>
+                    </div>
+                    <div class="contact-info">
+                         <div class="c-info-flex">
+                              <i class="uil uil-location-point"></i>
+                              <p>3711-2880 Nulla St, Mankato, Mississippi </p>
+                         </div>
+                         <div class="c-info-flex">
+                              <i class="uil uil-phone-volume"></i>
+                              <p>0615766135</p>
+                         </div>
+                         <div class="c-info-flex">
+                              <i class="uil uil-envelope-check"></i>
+                              <p> jawhara.com</p>
+                         </div>
+                    </div>
+
+               </div>
+
+               <div class="popular-places">
+                    <div class="title">
+                         <h1> Popular Places</h1>
+                    </div>
+
+                    <div class="places-info">
+                         <p>Mogdisho</p>
+                         <p>Garowe</p>
+                         <p>Hargaysa</p>
+                         <p>Galkacyo</p>
+                         <p>Jigjiga</p>
+                         <p>Bosaso</p>
+                         <p>jawhar</p>
+                         <p>Baydhabo</p>
+                         <p>cadaado</p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+
+
+
+
+     <script src="main.js"></script>
+</body>
+
+</html>
